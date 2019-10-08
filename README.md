@@ -1,0 +1,2 @@
+# DeepThought Website
+This is the repository for the deepthought.software website. It's basically just a standard Hugo generated static site, so to figure out how generate it, please check the [Hugo documentation](https://gohugo.io/documentation/).
