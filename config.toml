@@ -1,0 +1,60 @@
+baseurl = "http://deepthought.software"
+title = "Deep Thought"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Sebastiaan Samyn"
+    info = "Java & Scala backend developer"
+    description = "Deep Thought software development"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.png"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = """
+    Deep Thought Comm.V - <a href='mailto:info@deepthough.software'>info@deepthough.software</a> - <a href='tel:0032472661380'>+ 32 472 66 13 80</a>
+    """
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 1
+    url = "https://www.linkedin.com/in/sebastiaansamyn/"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 2
+    url = "https://github.com/sebastiaansamyn/"
+
+
+# Menu links
+[[menu.main]]
+    name = "Curriculum Vitae"
+    weight = 1
+    url  = "/cv"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/" 
