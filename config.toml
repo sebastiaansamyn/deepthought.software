@@ -24,7 +24,7 @@ disqusShortname = "yourdiscussshortname"
     favicon_16 = "/img/favicon-16x16.png"
 
     footercontent = """
-    Deep Thought Comm.V - <a href='mailto:info@deepthough.software'>info@deepthough.software</a> - <a href='tel:0032472661380'>+ 32 472 66 13 80</a>
+    Deep Thought Comm.V - <a href='mailto:info@deepthough.software'>info@deepthough.software</a>
     """
 
     hidecredits = false
